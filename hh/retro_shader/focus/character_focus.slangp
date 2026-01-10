@@ -1,0 +1,9 @@
+shaders = "1"
+shader0 = "character_focus.slang"
+filter_linear0 = "true"
+srgb_framebuffer0 = "false"
+
+# Значения по умолчанию для параметров
+focus_strength = "0.6"
+blur_radius = "0.005"
+vignette_strength = "0.3"

@@ -1,0 +1,11 @@
+shaders = "2"
+
+# Первый проход: Сканирующие линии и размытие
+shader0 = "crt-simple.slang"
+filter_linear0 = "true"
+scale_type0 = "source"
+scale0 = "1.0"
+
+# Второй проход: Вертикальная сетка (маска кинескопа)
+shader1 = "crt-mask.slang"
+filter_linear1 = "false"

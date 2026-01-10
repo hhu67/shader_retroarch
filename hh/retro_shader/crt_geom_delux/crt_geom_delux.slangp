@@ -1,0 +1,13 @@
+shaders = 2
+shader0 = src/linearize.slang
+filter_linear0 = false
+scale_type0 = source
+scale0 = 1.0
+shader1 = src/crt_geom_delux_main.slang
+filter_linear1 = true
+scale_type1 = viewport
+scale1 = 1.0
+parameters = "CURVATURE;MASK_STRENGTH;SCANLINE_STRENGTH"
+CURVATURE = "0.04"
+MASK_STRENGTH = "0.5"
+SCANLINE_STRENGTH = "0.7"

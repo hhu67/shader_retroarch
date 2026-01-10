@@ -1,0 +1,13 @@
+shaders = "3"
+
+# 1. Фокусировка
+shader0 = "src/focus.slang"
+filter_linear0 = "true"
+
+# 2. Сканирующие линии
+shader1 = "src/scanlines.slang"
+filter_linear1 = "true"
+
+# 3. Маска кинескопа
+shader2 = "src/mask.slang"
+filter_linear2 = "false"
